@@ -1,0 +1,6 @@
+How to work with this project:
+
+-> Extract Project folder
+-> Open folder in Intellij
+-> Go to src/main/loan/homeLoan/application/HouseLoanApplication.java
+-> Run the Main class(HouseLoanApplication.java).

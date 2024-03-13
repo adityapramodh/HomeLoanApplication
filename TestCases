@@ -1,0 +1,39 @@
+Scenario0:
+    Data Validation:
+    Manually verify the extracted data against the original lease documents.
+    Cross-check attribute values (e.g., rent, dates, tenant names) for accuracy.
+
+Scenario1:
+    Non-English Text:
+    Upload lease documents containing non-English text (e.g., leases in other languages).
+    Validate that the model handles multilingual content effectively.
+
+Scenario 2:
+    Handling Scanned Documents:
+    Convert printed or handwritten lease documents into scanned images (PDFs, images).
+    Assess how well the model performs on scanned documents.
+
+Scenario 3:
+    Data Consistency Across Deals:
+    Upload the same lease document to multiple deals and compare the extracted data.
+    Verify that the model produce
+
+Scenario 4:
+    Performance on Long Documents:
+    Upload lengthy lease agreements (e.g., 50+ pages) to evaluate performance.
+    Monitor processing time and resource usage.
+
+Scenario 5:
+    Handling Non-Standard Lease Formats:
+    Test with lease documents that deviate from the standard format (e.g., unconventional section headings, unique layouts).
+    Ensure the model adapts to variations.
+
+Scenario 6:
+    Handling Missing Attributes:
+    Upload lease documents with missing or incomplete attributes (e.g., tenant name, lease start date).
+    Verify that the model gracefully handles missing information without causing errors.
+
+Scenario 7:
+    Performance Under Load:
+    Simulate high load scenarios by uploading multiple documents simultaneously.
+    Monitor system performance (response time, memory usage) during peak usage.
